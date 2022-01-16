@@ -1,0 +1,6 @@
+Discord Bot Documentation
+==========================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Pages:
