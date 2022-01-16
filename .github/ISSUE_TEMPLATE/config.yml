@@ -1,0 +1,13 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support Server
+    url: https://skykings.net/discord
+    about: Please ask and answer questions here.
+    
+  - name: Bot Invite
+    url: https://skykings.net/bot/invite
+    about: Add the bot to your own server.
+    
+  - name: Documentation
+    url: https://docs.skykings.net
+    about: View the documentation.
