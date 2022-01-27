@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Sphinx
 
 # Controls when the workflow will run
 on:
@@ -23,10 +23,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Sphinx Build
-      - uses: ammaraskar/sphinx-action@0.4
-      - with:
-          # The folder containing your sphinx docs.
-          docs-folder: source/ # default is docs/
-          # The command used to build your documentation.
-          build-command: make html # optional, default is make html
+        uses: ammaraskar/sphinx-action@0.4
+        with:
+            # The folder containing your sphinx docs.
+            docs-folder: source/ # default is docs/
+            # The command used to build your documentation.
+            build-command: make html # optional, default is make html
       
