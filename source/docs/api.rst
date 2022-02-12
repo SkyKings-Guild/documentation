@@ -45,7 +45,6 @@ Endpoints
         - ``id``: The user's Discord ID
 
     Returns:
-        - Status: 200
         .. code-block:: js
 
             {
