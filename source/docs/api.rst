@@ -85,5 +85,5 @@ Endpoints
                         "user": "user" // Either a Discord user ID or a Minecraft UUID, non dashed
                     }
                 ],
-            "success": true
-        }
+                "success": true
+            }
