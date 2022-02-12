@@ -1,4 +1,4 @@
-SkyKings API
+API
 =============
 
 We have a public API that allows you to access public data that we store.

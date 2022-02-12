@@ -1,7 +1,7 @@
-SkyKings
-=========
+Discord Bot
+============
 
-The best bot for your Hypixel SkyBlock Discord servers or guilds.
+SkyKings has the best bot for your Hypixel SkyBlock Discord servers or guilds.
 
 Features
 *********
