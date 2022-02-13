@@ -20,6 +20,16 @@ Ratelimiting
 
 All endpoints have a ratelimit of 60 requests per minute.
 
+Developers are expected to implement proper ratelimit handling with the headers the API returns:
+- ``X-RateLimit-Limit`` - The amount of requests you can make
+- ``X-RateLimit-Remaining`` The amount of requests you have left
+- ``X-RateLimit-Reset`` The timestamp in UTC when the ratelimit resets
+- ``Retry-After`` - Seconds until the ratelimit resets
+
+Violating the ratelimit will result in a 429 response.
+
+Repeated violations of the ratelimit are logged and an API ban may be issued for your IP.
+Your API key will also be invalidated.
 
 Errors
 -------
