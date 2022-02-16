@@ -3,7 +3,7 @@ API
 
 We have a public API that allows you to access public data that we store.
 
-THe API's base URL is ``https://skykings.net/api/``.
+The API's base URL is ``https://skykings.net/api/``.
 
 Authorization
 --------------
