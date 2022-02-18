@@ -6,9 +6,17 @@ This page outlines the various configuration settings you can set on the bot.
 - :ref:`General`
 - :ref:`Verification`
 - :ref:`Guilds`
+- :ref:`SkyBlock Events`
 
 
 .. _General:
+General Configuration
+**********************
+
+These settings are edited with the ``/configuration edit`` command.
+
+You can reset a setting to its default value by leaving the value blank.
+
 .. list-table:: General
    :header-rows: 1
 
@@ -65,7 +73,7 @@ This page outlines the various configuration settings you can set on the bot.
      - Voice Channel
      - ``#Date``, ``1234567890``, ``Date``
    * - ``EVENTS_CHANNEL``
-     - The channel that Hypixel SkyBlock events should be sent to. More configuration is in the :ref:`Events` category.
+     - The channel that Hypixel SkyBlock events should be sent to. More configuration is in the :ref:`SkyBlock Events` category.
      - Text Channel
      - ``#events``, ``1234567890``, ``events``
    * - ``GLOBAL_EVENT_CHANNEL``
@@ -82,4 +90,58 @@ This page outlines the various configuration settings you can set on the bot.
      - ``@Fetchur Ping``, ``1234567890``, ``Fetchur Ping``
      
 
-INCOMPLETE
+.. _Verification:
+Verification Configuration
+**********************
+
+These settings are edited with the ``/configuration edit`` command. They depend on the ``VERIFICATION`` setting being enabled.
+
+You can reset a setting to its default value by leaving the value blank.
+
+.. list-table:: Verification
+   :header-rows: 1
+
+   * - Key
+     - Description
+     - Value
+     - Example
+   * - ``VERIFICATION``
+     - Whether or not verification settings are enabled. 
+     - Boolean
+     - ``yes``, ``true``, ``off``
+   * - ``NICK``
+     - Determines a verified player's nickname. Supports variables ``name``, ``rank``, ``network_level`` and ``cata_level``.
+     - String
+     - ``[{rank}] {name}``, ``{name}``
+   * - ``VERIFIED``
+     - The role given to verified members.
+     - Role
+     - ``@Verified``, ``1234567890``, ``Verified``
+   * - ``VIP``
+     - The role given to players with VIP on Hypixel.
+     - Role
+     - ``@VIP``, ``1234567890``, ``VIP``
+   * - ``VIP+``
+     - The role given to players with VIP+ on Hypixel.
+     - Role
+     - ``@VIP+``, ``1234567890``, ``VIP+``
+   * - ``MVP``
+     - The role given to players with MVP on Hypixel.
+     - Role
+     - ``@MVP``, ``1234567890``, ``MVP``
+   * - ``MVP+``
+     - The role given to players with MVP+ on Hypixel.
+     - Role
+     - ``@MVP+``, ``1234567890``, ``MVP+``
+   * - ``MVP++``
+     - The role given to players with MVP++ on Hypixel.
+     - Role
+     - ``@MVP++``, ``1234567890``, ``MVP++``
+   * - ``YOUTUBE``
+     - The role given to players with YouTube rank on Hypixel.
+     - Role
+     - ``@YT``, ``1234567890``, ``YT``
+   * - ``STAFF``
+     - The role given to Hypixel staff members.
+     - Role
+     - ``@Hypixel Staff``, ``1234567890``, ``Hypixel Staff``
