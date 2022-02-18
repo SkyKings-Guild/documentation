@@ -46,3 +46,4 @@ Learn how to use the bot, and view it's full set of features.
     :titlesonly:
 
     commands
+    config
