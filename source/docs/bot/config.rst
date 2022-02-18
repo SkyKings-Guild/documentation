@@ -68,6 +68,18 @@ This page outlines the various configuration settings you can set on the bot.
      - The channel that Hypixel SkyBlock events should be sent to. More configuration is in the :ref:`Events` category.
      - Text Channel
      - ``#events``, ``1234567890``, ``events``
+   * - ``GLOBAL_EVENT_CHANNEL``
+     - The channel that global events run by SkyKings should be sent to.
+     - Text Channel
+     - ``#events``, ``1234567890``, ``events``
+   * - ``FETCHUR``
+     - The channel that daily SkyBlock fetchur items should be sent to.
+     - Text Channel
+     - ``#fetchur``, ``1234567890``, ``fetchur``
+   * - ``FETCHUR_PING``
+     - The role that is pinged for a new fetchur item. ``FETCHUR`` must be set.
+     - Role
+     - ``@Fetchur Ping``, ``1234567890``, ``Fetchur Ping``
      
 
 INCOMPLETE
