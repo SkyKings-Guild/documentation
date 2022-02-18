@@ -3,13 +3,12 @@ Configuration
 
 This page outlines the various configuration settings you can set on the bot.
 
-- :ref:`General`
-- :ref:`Verification`
+- :ref:`General Configuration`
+- :ref:`Verification Configuration`
 - :ref:`Guilds`
 - :ref:`SkyBlock Events`
 
 
-.. _General:
 General Configuration
 **********************
 
