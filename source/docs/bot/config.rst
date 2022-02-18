@@ -94,7 +94,7 @@ You can reset a setting to its default value by leaving the value blank.
 .. _Verification Config:
 
 Verification Configuration
-**********************
+***************************
 
 These settings are edited with the ``/configuration edit`` command. They depend on the ``VERIFICATION`` setting being enabled.
 
