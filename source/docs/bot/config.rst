@@ -18,7 +18,7 @@ These settings are edited with the ``/configuration edit`` command.
 
 You can reset a setting to its default value by leaving the value blank.
 
-.. list-table:: General
+.. list-table::
    :header-rows: 1
 
    * - Key
@@ -100,7 +100,7 @@ These settings are edited with the ``/configuration edit`` command. They depend 
 
 You can reset a setting to its default value by leaving the value blank.
 
-.. list-table:: Verification
+.. list-table:: 
    :header-rows: 1
 
    * - Key
