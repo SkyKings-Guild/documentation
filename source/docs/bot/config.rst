@@ -3,13 +3,14 @@ Configuration
 
 This page outlines the various configuration settings you can set on the bot.
 
-- :ref:`General_Config`
-- :ref:`Verification_Config`
+- :ref:`General Config`
+- :ref:`Verification Config`
 - :ref:`Guilds`
 - :ref:`SkyBlock Events`
 
 
-.. _General_Config:
+.. _General Config:
+
 General Configuration
 **********************
 
@@ -90,7 +91,8 @@ You can reset a setting to its default value by leaving the value blank.
      - ``@Fetchur Ping``, ``1234567890``, ``Fetchur Ping``
      
 
-.. _Verification_Config:
+.. _Verification Config:
+
 Verification Configuration
 **********************
 
