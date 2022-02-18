@@ -145,3 +145,4 @@ You can reset a setting to its default value by leaving the value blank.
      - The role given to Hypixel staff members.
      - Role
      - ``@Hypixel Staff``, ``1234567890``, ``Hypixel Staff``
+
