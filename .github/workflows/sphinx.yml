@@ -30,6 +30,7 @@ jobs:
       with:
         url: ${{ secrets.RTD_WEBHOOK }}
         method: 'POST'
+        if: ${{ github.event_name == 'push' }}
         contentType: 'application/x-www-form-urlencoded'
-        data: 'branches=main&token=${{ secrets.RTD_TOKEN }}'
+        data: 'branches=${{ github.ref }}&token=${{ secrets.RTD_TOKEN }}'
       
