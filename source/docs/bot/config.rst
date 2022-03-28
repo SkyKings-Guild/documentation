@@ -72,7 +72,7 @@ You can reset a setting to its default value by leaving the value blank.
      - Voice Channel
      - ``#Date``, ``1234567890``, ``Date``
    * - ``EVENTS_CHANNEL``
-     - The channel that Hypixel SkyBlock events should be sent to. More configuration is in the :ref:`SkyBlock Events` category.
+     - The channel that Hypixel SkyBlock events should be sent to.
      - Text Channel
      - ``#events``, ``1234567890``, ``events``
    * - ``GLOBAL_EVENT_CHANNEL``
