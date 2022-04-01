@@ -5,7 +5,7 @@ We have a public API that allows you to access public data that we store.
 
 The API's base URL is ``https://skykings.net/api/``.
 
-.. warn::
+.. warning::
 
     The API is very unstable right now, and will be subject to many changes in the near future.
 
