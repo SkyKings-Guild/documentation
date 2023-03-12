@@ -1,0 +1,11 @@
+table.docutils td:first-child, table.docutils th:first-child {
+    border-left: 1px solid var(--color-table-border);
+}
+
+table.docutils td:last-child, table.docutils th:last-child {
+    border-right: 1px solid var(--color-table-border);
+}
+
+table.docutils td, table.docutils th {
+    border-top: 1px solid var(--color-table-border);
+}
