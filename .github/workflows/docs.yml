@@ -26,4 +26,4 @@ jobs:
         add: 'build/** -f'
         message: 'Upload docs from {{ github.sha }}'
         default_author: github_actions
-        push: 'origin production --set-upstream --force'
+        push: 'origin HEAD:production --set-upstream --force'
