@@ -27,8 +27,7 @@ jobs:
     - name: Upload documentation
       uses: EndBug/add-and-commit@v9
       with:
-        add: '*'
+        add: './build'
         message: 'Upload docs from {{ github.sha }}'
         default_author: github_actions
-        new_branch: production
-        push: '--force'
+        push: 'origin production --set-upstream --force'
