@@ -23,9 +23,12 @@ jobs:
     - name: Compile documentation to HTML
       run: |
         sphinx-build -W -b html source build
+    
     - name: Upload documentation
       uses: EndBug/add-and-commit@v9
       with:
+        add: 'build'
+        cwd: 'build'
         message: 'Upload docs from {{ github.sha }}'
         default_author: github_actions
-        branch: production
+        new_branch: production
