@@ -90,7 +90,32 @@ html_theme_options = {
         "color-sidebar-search-border": "none",
         "color-sidebar-search-background": "var(--color-sidebar-background)",
         #"color-table-border": "#00000000",
-    }
+    },
+    "announcement": (
+        "<strong>This documentation is incomplete!</strong> "
+        "If you have any questions, please contact us on "
+        "<a href='https://discord.gg/skykings'>Discord</a>."
+    ),
+    "footer_icons": [
+        {
+            "name": "Discord",
+            "url": "https://discord.gg/skykings",
+            "html": "",
+            "class": "fa-brands fa-solid fa-discord",
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/SkyKings-Guild",
+            "html": "",
+            "class": "fa-brands fa-solid fa-github",
+        },
+        {
+            "name": "Patreon",
+            "url": "https://patreon.com/skykings",
+            "html": "",
+            "class": "fa-brands fa-solid fa-patreon",
+        },
+    ],
 }
 
 html_title = "SkyKings"
@@ -99,7 +124,12 @@ html_title = "SkyKings"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_css_files = ["style/custom.css"]
+html_css_files = [
+    "style/custom.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css",
+]
 html_js_files = []
 
 # Custom sidebar templates, must be a dictionary that maps document names

@@ -1,8 +1,6 @@
-name: Build Documentation
+name: Update Documentation
 on:
   push:
-    branches: [ main ]
-  pull_request:
     branches: [ main ]
   workflow_dispatch:
 
@@ -24,4 +22,12 @@ jobs:
     - name: Compile documentation to HTML
       run: |
         sphinx-build -W -b html source build
+    - name: Upload documentation
+      uses: actions/upload-artifact@v2
+      with:
+        name: docs
+        path: build
+    - name: Update Cloudflare Pages
+      run: |
+        curl -X POST "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/04ed6eb4-2bac-445a-b4c3-c55774757163"
       

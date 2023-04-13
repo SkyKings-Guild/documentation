@@ -302,11 +302,541 @@ The guild must have at least 50 members.
 
 ## Hypixel
 
+### `/locate [player]`
+
+Locates a player on Hypixel.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description           | Type   |
+| ------ | --------------------- | ------ |
+| player | The player to locate. | Player |
+```
+
+### `/friends [player]`
+
+Lists a player's friends on Hypixel.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description           | Type   |
+| ------ | --------------------- | ------ |
+| player | The player to locate. | Player |
+```
+
+### `/guild info (guild)`
+
+Shows information about a guild in Hypixel.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name  | Description           | Type |
+| ----- | --------------------- | ---- |
+| guild | The guild to display. | Text |
+```
+
+### `/guild members (guild)`
+
+Shows a list of members in a guild.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name  | Description           | Type |
+| ----- | --------------------- | ---- |
+| guild | The guild to display. | Text |
+```
+
+### `/guild xp (guild) (gexp)`
+
+Shows a list of members in a guild that are under a certain guild XP threshold.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name  | Description             | Type   |
+| ----- | ----------------------- | ------ |
+| guild | The guild to display.   | Text   |
+| gexp  | The guild XP threshold. | Number |
+```
+
+### `/guild members (guild)`
+
+Shows a list of members in a guild that are either not verified with the bot or not in the DIscord server.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name  | Description           | Type |
+| ----- | --------------------- | ---- |
+| guild | The guild to display. | Text |
+```
+
+### `/status`
+
+Displays Hypixel's current server status, as shown on [status.hypixel.net](https://status.hypixel.net).
+
+### `/userinfo (user)`
+
+Shows information about a Discord user.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name | Description          | Type |
+| ---- | -------------------- | ---- |
+| user | The user to display. | User |
+```
+
+### `/guildrequirements [player]`
+
+Shows whether or not someone meets the requirements for the Discord server's guilds.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description          | Type   |
+| ------ | -------------------- | ------ |
+| player | The player to check. | Player |
+```
+
 ## Stats
+
+### `/player [player]`
+
+Shows information about a player on Hypixel.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/profiles [player]`
+
+Shows a player's Skyblock profiles.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/guildrequirements [player]`
+
+Shows whether or not someone meets the requirements for the Discord server's guilds.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/slayers [player]`
+
+Shows a player's slayer statistics.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/skills [player]`
+
+Shows a player's skills.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/collections [player]`
+
+Shows a player's collections.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/weight [player]`
+
+Shows a player's weight. This can show both Senither and Lily weight.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/networth [player]`
+
+Shows a player's networth.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/dungeons info [player]`
+
+Shows a player's general Dungeon statistics.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/dungeons best-runs (floor) [player]`
+
+Shows the best Dungeon runs for a specific floor from a player.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| floor  | The floor to show.  | Text   |
+| player | The player to show. | Player |
+```
+
+### `/bank [player]`
+
+Shows a player's bank, including balance and transaction history.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/bingo card [player]`
+
+Shows a player's bingo card.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/bingo stats [player]`
+
+Shows a player's bingo stats.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/bingo card [player]`
+
+Shows a player's bingo card.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/crimson [player]`
+
+Shows a player's Crimson Isle statistics.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/bestiary [player]`
+
+Shows a player's bestiary.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/jacob [player]`
+
+Shows a player's Jacob's Contest statistics.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/accessories [player]`
+
+Shows a player's accessories, including missing accessories and possible upgrades.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
 
 ## Verification
 
+### `/verify link (player)`
+
+Links your Discord account to your Minecraft account.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description            | Type   |
+| ------ | ---------------------- | ------ |
+| player | The player to link to. | Player |
+```
+
+### `/verify help`
+
+Provides instructions for verifying.
+
+
+### `/verify sync`
+
+Updates your roles in the current Discord server.
+
+
+### `/verify unlink`
+
+Unlinks your Discord account from your Minecraft account.
+
+
+### `/verify button [channel]`
+
+Sends a verification button to the specified channel, or the current one if none is specified.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name    | Description                        | Type    |
+| ------- | ---------------------------------- | ------- |
+| channel | The channel to send the button to. | Channel |
+```
+
 ## Config
+
+### `/config view`
+
+Views the server's configuration settings.
+
+
+### `/config edit (option) [value]`
+
+Edits the server's configuration settings. Leave `value` blank to reset the option to its default value.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name    | Description                        | Type    |
+| ------- | ---------------------------------- | ------- |
+| option  | The option to edit.                | Text    |
+| value   | The value to set the option to.    | Any     |
+```
+
+### `/config guilds view`
+
+Views the server's linked guilds.
+
+
+### `/config guilds add-guild (guild)`
+
+Add a Hypixel guild to the server's linked guilds.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name    | Description                        | Type    |
+| ------- | ---------------------------------- | ------- |
+| guild   | The guild to add.                  | Text    |
+```
+
+### `/config guilds remove-guild (guild)`
+
+Remove a Hypixel guild from the server's linked guilds.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name    | Description                        | Type    |
+| ------- | ---------------------------------- | ------- |
+| guild   | The guild to remove.               | Text    |
+```
+
+### `/config guilds edit-guild (guild) (option) [value]`
+
+Edits a guild's settings. Leave `value` blank to reset the option to its default value.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name    | Description                        | Type    |
+| ------- | ---------------------------------- | ------- |
+| guild   | The guild to edit.                 | Text    |
+| option  | The option to edit.                | Text    |
+| value   | The value to set the option to.    | Any     |
+```
+
+### `/config guilds add-rank (guild) (rank) [role]`
+
+Add a rank to a guild's settings, optionally with a role to add to members with the rank.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name    | Description                        | Type    |
+| ------- | ---------------------------------- | ------- |
+| guild   | The guild the rank is in.          | Text    |
+| rank    | The rank to add.                   | Text    |
+| role    | The role to sync the rank with.    | Role    |
+```
+
+### `/config guilds edit-rank (guild) (rank) [role]`
+
+Updates a rank's role. Leave `role` blank to remove the role from the rank.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name    | Description                        | Type    |
+| ------- | ---------------------------------- | ------- |
+| guild   | The guild the rank is in.          | Text    |
+| rank    | The rank to edit.                  | Text    |
+| role    | The role to sync the rank with.    | Role    |
+```
+
+### `/config guilds remove-rank (guild) (rank)`
+
+Remove a rank from a guild's settings.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name    | Description                        | Type    |
+| ------- | ---------------------------------- | ------- |
+| guild   | The guild the rank is in.          | Text    |
+| rank    | The rank to remove.                | Text    |
+```
+
 
 ## Events
 
