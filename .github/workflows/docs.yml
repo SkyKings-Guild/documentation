@@ -14,6 +14,26 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
+    - name: Find PR Comment
+      uses: peter-evans/find-comment@v2
+      id: fc
+      with:
+        issue-number: ${{ github.event.number }}
+        comment-author: 'github-actions[bot]'
+        body-includes: Cloudflare Pages
+      if: github.event_name == 'pull_request'
+    - name: Comment on PR (Deploy In Progress)
+      uses: peter-evans/create-or-update-comment@v3
+      id: mc
+      with:
+        issue-number: github.event.number
+        comment-id: ${{ steps.fc.outputs.comment-id }}
+        body: |
+          ## :warning: Cloudflare Pages Deploy In Progress...
+          
+          Commit hash: ${{ github.ref }}
+        edit-mode: replace
+      if: github.event_name == 'pull_request'
     - uses: actions/checkout@v3
     - name: Set up Python 3.11
       uses: actions/setup-python@v4
@@ -36,5 +56,15 @@ jobs:
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
       env:
         PAGES_BRANCH: ${{ github.event_name == 'push' && github.ref_name ||  format('pr-{0}', github.event.number) }}
-
+    - name: Comment on PR (Deploy Complete)
+      uses: peter-evans/create-or-update-comment@v3
+      with:
+        issue-number: github.event.number
+        comment-id: ${{ steps.fc.outputs.comment-id == 0 && steps.mc.outputs.comment-id || steps.fc.outputs.comment-id }}
+        body: |
+          ## :rocket: Cloudflare Pages Deploy Complete!
+          
+          Preview it at [pr-${{ github.event.number }}.skykings-documentation.pages.dev](https://pr-${{ github.event.number }}.skykings-documentation.pages.dev)
+        edit-mode: replace
+      if: github.event_name == 'pull_request'
 
