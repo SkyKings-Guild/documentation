@@ -1,5 +1,5 @@
 # SkyKings Documentation Source
-Source of https://docs.skykings.net.
+Contains the source of https://docs.skykings.net.
 
 For documentation errors, please open an issue.
 
