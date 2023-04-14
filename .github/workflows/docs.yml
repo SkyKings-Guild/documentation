@@ -35,6 +35,6 @@ jobs:
         branch: ${{ env.PAGES_BRANCH }}
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
       env:
-        PAGES_BRANCH: ${{ github.event_name == 'push' && GITHUB_REF#refs/heads/ ||  format('pr-{0}', github.event.number) }}
+        PAGES_BRANCH: ${{ github.event_name == 'push' && github.ref_name ||  format('pr-{0}', github.event.number) }}
 
 
