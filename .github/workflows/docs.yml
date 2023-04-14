@@ -27,11 +27,7 @@ jobs:
         sphinx-build -W -b html source build
     - name: Set env vars for publishing
       run: |
-        if [ ${{ github.event_name }} -ne pull_request ] then \
-          echo "BRANCH_NAME=pr-$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')" >> $GITHUB_ENV \
-        else \
-          echo "BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_ENV \
-        fi
+        if [ ${{ github.event_name }} -ne pull_request ] then echo "BRANCH_NAME=pr-$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')" >> $GITHUB_ENV else echo "BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_ENV fi
     - name: Deploy to Pages
       uses: cloudflare/pages-action@1
       with:
