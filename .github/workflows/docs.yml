@@ -27,7 +27,6 @@ jobs:
         sphinx-build -W -b html source build
     - name: Set env vars for publishing
       run: |
-        echo ${{ github.event_name }}
         if ["${{ github.event_name }}" = "push"]; then echo PAGES_BRANCH=$(echo ${GITHUB_REF#refs/heads/}) >> $GITHUB_ENV; else echo PAGES_BRANCH=pr\-${{github.event.number}} >> $GITHUB_ENV; fi
         echo ${{ env.PAGES_BRANCH }}
     - name: Deploy to Pages
