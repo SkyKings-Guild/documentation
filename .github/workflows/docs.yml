@@ -22,9 +22,13 @@ jobs:
     - name: Compile documentation to HTML
       run: |
         sphinx-build -W -b html source build
-    - name: Upload documentation
-      uses: EndBug/add-and-commit@v9
+    - name: Deploy to Pages
+      uses: cloudflare/pages-action@1
       with:
-        add: 'build/** -f'
-        message: 'Build docs from ${{ github.sha }}'
-        default_author: github_actions
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        projectName: skykings-documentation
+        directory: build
+        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+
