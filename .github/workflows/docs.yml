@@ -36,5 +36,13 @@ jobs:
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
       env:
         PAGES_BRANCH: ${{ github.event_name == 'push' && github.ref_name ||  format('pr-{0}', github.event.number) }}
-
+    - name: Comment on PR
+      uses: peter-evans/create-or-update-comment@v3
+      with:
+        issue-number: github.event.number
+        body: |
+          ## :rocket: Cloudflare Pages Deploy Complete!
+          
+          Preview it at [pr-${{ github.event.number }}.skykings-documentation.pages.dev](https://pr-${{ github.event.number }}.skykings-documentation.pages.dev)
+      if: github.event_name == 'pull_request'
 
