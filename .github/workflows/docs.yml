@@ -32,7 +32,6 @@ jobs:
         else \
           echo "BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_ENV \
         fi
-      if: startsWith(github.ref, 'refs/tags/staging-')
     - name: Deploy to Pages
       uses: cloudflare/pages-action@1
       with:
