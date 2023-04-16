@@ -840,4 +840,76 @@ Remove a rank from a guild's settings.
 
 ## Events
 
+### `/event start (event) (duration) [gvg] [channel] [role] [schedule_event]`
+
+Remove a rank from a guild's settings.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name           | Description                                                                                    | Type    |
+| -------------- | ---------------------------------------------------------------------------------------------- | ------- |
+| event          | The type of event to start.                                                                    | Text    |
+| duration       | How long the event should last. Should be in a format similar to `1w 1d`.                      | Text    |
+| gvg            | Whether the event should be a Guilds vs Guilds event. [SkyKings Premium](premium) is required. | Boolean |
+| channel        | The channel to send the event message to.                                                      | Channel |
+| role           | The role to ping when the event starts.                                                        | Role    |
+| schedule_event | Whether the event should be scheduled using Discord's events feature.                          | Boolean |
+```
+
+### `/event end`
+
+Ends an event.
+
+
+### `/event delete`
+
+Deletes the event data.
+
+
+### `/event join`
+
+Joins an event.
+
+
+### `/event leave`
+
+Leaves an event.
+
+
+### `/event position [player]`
+
+Shows a player's position in the current event. Defaults to yourself if `player` is not provided.
+
+```{table}
+:width: 100%
+:widths: auto
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+
+### `/event list`
+
+Lists the people in an event.
+
+
+### `/event guild (guild)`
+
+Shows a guild in the event.
+
+```{table}
+:width: 100%
+:widths: auto
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| guild  | The guild to show.  | Text   |
+```
+
+
 ## Miscellaneous
