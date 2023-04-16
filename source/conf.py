@@ -39,7 +39,10 @@ release = ''
 # ones.
 extensions = [
     'myst_parser',
+    'sphinxext.opengraph'
 ]
+
+ogp_description_length = 100
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -51,6 +54,7 @@ templates_path = ['_templates']
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
+    '.ico': 'ico',
 }
 
 # The master toctree document.
@@ -89,7 +93,6 @@ html_theme_options = {
         "color-sidebar-background": "#10131b",
         "color-sidebar-search-border": "none",
         "color-sidebar-search-background": "var(--color-sidebar-background)",
-        #"color-table-border": "#00000000",
     },
     "announcement": (
         "<strong>This documentation is incomplete!</strong> "
