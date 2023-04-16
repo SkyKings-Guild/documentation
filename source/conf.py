@@ -54,7 +54,6 @@ templates_path = ['_templates']
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
-    '.ico': 'ico',
 }
 
 # The master toctree document.
@@ -134,6 +133,7 @@ html_css_files = [
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css",
 ]
 html_js_files = []
+html_favicon = "favicon.ico"
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
