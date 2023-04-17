@@ -886,6 +886,7 @@ Shows a player's position in the current event. Defaults to yourself if `player`
 ```{table}
 :width: 100%
 :widths: auto
+:align: center
 
 | Name   | Description         | Type   |
 | ------ | ------------------- | ------ |
@@ -905,6 +906,7 @@ Shows a guild in the event.
 ```{table}
 :width: 100%
 :widths: auto
+:align: center
 
 | Name   | Description         | Type   |
 | ------ | ------------------- | ------ |
