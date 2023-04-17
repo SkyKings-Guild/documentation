@@ -43,6 +43,7 @@ extensions = [
 ]
 
 ogp_description_length = 100
+ogp_social_cards = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

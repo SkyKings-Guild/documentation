@@ -16,6 +16,8 @@ hidden: true
 
 discordbot/index
 fragbot/index
+premium
 ```
 - [Discord Bot](discordbot/index)
 - [Frag Bot](fragbot/index)
+- [Premium](premium)

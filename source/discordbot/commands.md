@@ -853,7 +853,7 @@ Remove a rank from a guild's settings.
 | -------------- | ---------------------------------------------------------------------------------------------- | ------- |
 | event          | The type of event to start.                                                                    | Text    |
 | duration       | How long the event should last. Should be in a format similar to `1w 1d`.                      | Text    |
-| gvg            | Whether the event should be a Guilds vs Guilds event. [SkyKings Premium](premium) is required. | Boolean |
+| gvg            | Whether the event should be a Guilds vs Guilds event. [SkyKings Premium](/premium) is required. | Boolean |
 | channel        | The channel to send the event message to.                                                      | Channel |
 | role           | The role to ping when the event starts.                                                        | Role    |
 | schedule_event | Whether the event should be scheduled using Discord's events feature.                          | Boolean |
