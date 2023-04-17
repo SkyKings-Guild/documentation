@@ -89,7 +89,10 @@ html_theme = 'furo'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {
+html_theme_options = {    
+    "source_repository": "https://github.com/SkyKings-Guild/documentation/",
+    "source_branch": "main",
+    "source_directory": "source/",
     "dark_css_variables": {
         "color-background-primary": "#1a1f2c",
         "color-sidebar-background": "#10131b",

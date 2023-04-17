@@ -1,4 +1,4 @@
-# SkyKings Discord Bot
+# Discord Bot
 
 The SkyKings Discord Bot is intended to be a stats-checking bot for Hypixel SkyBlock, 
 and a helpful utility for guild owners.
