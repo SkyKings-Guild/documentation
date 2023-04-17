@@ -14,10 +14,12 @@ maxdepth: 1
 hidden: true
 ---
 
+api
 discordbot/index
 fragbot
 premium
 ```
-- [Discord Bot](discordbot/index)
-- [Frag Bot](fragbot)
-- [Premium](premium)
+- [API](/api)
+- [Discord Bot](/discordbot/index)
+- [Frag Bot](/fragbot)
+- [Premium](/premium)

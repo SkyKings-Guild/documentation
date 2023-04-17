@@ -915,3 +915,90 @@ Shows a guild in the event.
 
 
 ## Miscellaneous
+
+
+### `/premium info`
+
+Shows information about [SkyKings Premium](/premium).
+
+
+### `/premium status`
+
+Shows current server's premium status.
+
+
+### `/premium transfer`
+
+Allows you to use a Premium subscription on a server for the duration you have the subscription.
+
+
+### `/premium redeem`
+
+Redeem a premium code for a server.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name | Description          | Type |
+| ---- | -------------------- | ---- |
+| code | The code to redeem.  | Text |
+```
+
+
+### `/uptime`
+
+Shows the bot's uptime.
+
+
+### `/invite`
+
+Gives you the bot's invite so you can add it to your own servers.
+
+
+### `/info`
+
+Shows general system information about the bot.
+
+
+### `/ping`
+
+Tests if the bot is responding, and shows you the connection latency.
+
+
+### `/command-usage`
+
+Shows command usage.
+
+
+### `/votes`
+
+Shows people who have voted for the bot on top.gg. Currently nonfunctional.
+
+
+### `/api-key`
+
+Generates an API key for use with our [API](/api).
+
+
+### `/fragbot add-guild (guild)`
+
+Adds a guild to the frag bot. Requires [SkyKings Premium](/premium).
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| guild  | The guild to add.   | Text   |
+```
+
+
+### `/help`
+
+Shows a list of commands.
+
+
