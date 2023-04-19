@@ -148,3 +148,35 @@ Below is a table of valid requirements:
 
 
 ## Skyblock Events
+
+Skyblock events is a feature that allows you to automatically send Skyblock events to a channel.
+
+For this feature to work, you must set the `SkyBlock Event Channel` configuration setting to a channel.
+
+The configuration for this feature is managed using the `/skyblock-events config` command.
+
+The following events are available:
+- New Year
+- Spooky Festival
+- Jerry's Workshop Opens
+- Season of Jerry
+- Mayor Election Ends
+- Travelling Zoo
+- Fear Mongerer
+- Dark Auction
+- Mayor Election Begins
+- Bank Interest
+
+For each event, you can set the following settings:
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name    | Description                                     | Type    | Edit With      |
+|---------|-------------------------------------------------|---------|----------------|
+| Enabled | Whether the event is enabled or not.            | Boolean | `toggle`       |
+| Alerts  | When to send alerts, based on time until event. | Channel | `toggle-alert` |
+| Ping    | The role to ping when the event starts.         | Role    | `set-ping`     |
+```
