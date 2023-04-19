@@ -113,3 +113,6 @@ For example, if you wanted to set the membercount to be `Guild Members: 100`, yo
 Guild ranks can be added using the `/config guilds add-rank` command. They only have one possible setting, `Role`.
 
 You can update the role for a rank using the `/config guilds edit-rank` command.
+
+
+## Skyblock Events
