@@ -115,4 +115,36 @@ Guild ranks can be added using the `/config guilds add-rank` command. They only 
 You can update the role for a rank using the `/config guilds edit-rank` command.
 
 
+### Requirements
+
+Requirements allow you to quickly and easily check if someone meets your guild's join requirements.
+
+To add a requirement, you can use the `/config guilds add-requirement` command.
+
+Ranks also support requirements, which can be added using the `/config guilds add-rank-requirement` command.
+
+You can check requirements using the `/guild-requirements` command.
+
+Below is a table of valid requirements:
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name                     | Description                           | Type    | Max Value |
+|--------------------------|---------------------------------------|---------|-----------|
+| Network Level            | The user's network level.             | Integer |           |
+| Skill Average            | The user's skill average.             | Integer | 55        |
+| Slayer XP                | The user's slayer XP.                 | Integer |           |
+| Minion slots             | The user's minion slots.              | Integer | 25        |
+| Catacombs Level          | The user's Catacombs level.           | Integer | 50        |
+| Fairy Souls              | The user's Fairy Souls.               | Integer | 220       |
+| Senither Weight          | The user's Senither weight.           | Integer |           |
+| Lily Weight              | The user's Lily weight.               | Integer |           |
+| All API Settings Enabled | Whether all API settings are enabled. | Boolean |           |
+```
+
+
+
 ## Skyblock Events
