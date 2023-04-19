@@ -46,6 +46,7 @@ ogp_description_length = 100
 ogp_social_cards = {
     "enable": False
 }
+myst_heading_anchors = 6
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -53,7 +54,6 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-# source_suffix = ['.rst', '.md']
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
