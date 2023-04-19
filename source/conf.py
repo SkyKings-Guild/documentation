@@ -99,11 +99,7 @@ html_theme_options = {
         "color-sidebar-search-border": "none",
         "color-sidebar-search-background": "var(--color-sidebar-background)",
     },
-    "announcement": (
-        "<strong>This documentation is incomplete!</strong> "
-        "If you have any questions, please contact us on "
-        "<a href='https://discord.gg/skykings'>Discord</a>."
-    ),
+    "announcement": None,
     "footer_icons": [
         {
             "name": "Discord",
