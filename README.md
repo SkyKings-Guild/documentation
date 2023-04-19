@@ -8,7 +8,7 @@ For modifications to the documentation, feel free to open a pull request.
 ## Editing the Docs
 
 Documentation is build using the [Sphinx](https://www.sphinx-doc.org/en/master/) documentation generator. 
-he documentation is written in [Markdown](https://www.markdownguide.org/ and uses 
+he documentation is written in [Markdown](https://www.markdownguide.org/) and uses 
 [MyST](https://myst-parser.readthedocs.io/en/latest/) for compatibility with Sphinx.
 
 ### Installation
