@@ -300,6 +300,21 @@ The guild must have at least 50 members.
 | guild | The guild to add. | Text |
 ```
 
+### `/calculate skill (player) (level)`
+
+Calculates how much skill XP you need to get for a certain level.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description                  | Type           |
+| ------ | ---------------------------- | -------------- |
+| player | The guild to calculate with. | Text           |
+| level  | The target level.            | Integer (1-60) |
+```
+
 ## Hypixel
 
 ### `/locate [player]`
