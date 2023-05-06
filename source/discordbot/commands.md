@@ -994,7 +994,7 @@ Shows people who have voted for the bot on top.gg. Currently nonfunctional.
 
 ### `/api-key`
 
-Generates an API key for use with our [API](/api).
+Generates an API key for use with our [API](/api). Requires [SkyKings Premium](/premium).
 
 
 ### `/fragbot add-guild (guild)`
