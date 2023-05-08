@@ -300,7 +300,7 @@ The guild must have at least 50 members.
 | guild | The guild to add. | Text |
 ```
 
-### `/calculate skill (player) (level)`
+### `/calculate skill (player) (target_level)`
 
 Calculates how much skill XP you need to get for a certain level.
 
@@ -309,10 +309,25 @@ Calculates how much skill XP you need to get for a certain level.
 :widths: auto
 :align: center
 
-| Name   | Description                  | Type           |
-| ------ | ---------------------------- | -------------- |
-| player | The guild to calculate with. | Text           |
-| level  | The target level.            | Integer (1-60) |
+| Name         | Description                   | Type           |
+| ------------ | ----------------------------- | -------------- |
+| player       | The player to calculate with. | Text           |
+| target_level | The target level.             | Integer (1-60) |
+```
+
+### `/calculate slayer (player) (target_level)`
+
+Calculates how much slayer XP you need to get for a certain level.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name         | Description                   | Type          |
+| ------------ | ----------------------------- | ------------- |
+| player       | The player to calculate with. | Text          |
+| target_level | The target level.             | Integer (1-9) |
 ```
 
 ## Hypixel
