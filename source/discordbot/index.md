@@ -12,4 +12,5 @@ maxdepth: 1
 
 commands
 config
+linked-roles
 ```
