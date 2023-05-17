@@ -53,6 +53,3 @@ Once done, make a pull request with your changes.
 
 You can also edit the documentation directly on GitHub. To do so, click on the file you want to edit, 
 and then click on the pencil icon in the top right corner. Once done, make a pull request with your changes.
-
-Once your pull request is made, you can preview the changes on Cloudflare Pages, 
-through the link posted in a comment on your pull request.
