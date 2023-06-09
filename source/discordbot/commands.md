@@ -104,7 +104,7 @@ For a more detailed and easier to use view, you can visit our [Bazaar Tracker](h
 | item | The item to view on the bazaar. | Text |
 ```
 
-### `/auctions search (item) [bin] [exact]`
+### `/auctions search (item) [bin]`
 
 Searches the auction house for an item.
 
@@ -117,7 +117,6 @@ Searches the auction house for an item.
 | ----- | ------------------------------------------------------- | ------- |
 | item  | The item to search for.                                 | Text    |
 | bin   | Filters only BIN auctions. Leave blank for all options. | Boolean |
-| exact | Match `item` exactly. Defaults to `false`.              | Boolean |
 ```
 
 ### `/auctions player (player)`
