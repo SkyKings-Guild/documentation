@@ -24,6 +24,8 @@ The general configuration for the bot contains various automatic annoucements an
 | SkyBlock Patchnotes Channel | The channel to send Hypixel Skyblock patchnotes to.                                                    | Channel       |
 | Fetchur Ping                | The role to ping for Daily Fetchur items.                                                              | Role          |
 | Fetchur Channel             | The channel to send Daily Fetchur items to.                                                            | Channel       |
+| Firesale Ping               | The role to ping for new firesales.                                                                    | Role          |
+| Firesale Channel            | The channel to send firesales to.                                                                      | Channel       |
 | Global Event Ping           | The role to ping when a global event is started.                                                       | Role          |
 | Global Event Channel        | The channel to send global event messages to.                                                          | Channel       |
 | SkyBlock Date               | The channel to update with the Hypixel Skyblock date.                                                  | Channel       |
