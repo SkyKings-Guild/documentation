@@ -13,6 +13,7 @@ Minecraft username or the Discord user ID of a verified player.
 If optional and not provided, they will use the command author's verified account if one is linked.
 ```
 
+
 ## Skyblock
 
 ### `/lookup player [player]`
@@ -329,6 +330,7 @@ Calculates how much slayer XP you need to get for a certain level.
 | target_level | The target level.             | Integer (1-9) |
 ```
 
+
 ## Hypixel
 
 ### `/locate [player]`
@@ -447,6 +449,7 @@ Shows whether or not someone meets the requirements for the Discord server's gui
 | ------ | -------------------- | ------ |
 | player | The player to check. | Player |
 ```
+
 
 ## Stats
 
@@ -703,6 +706,62 @@ Shows a player's accessories, including missing accessories and possible upgrade
 | player | The player to show. | Player |
 ```
 
+### `/forge profits [player]`
+
+Shows the best items you can forge for a profit.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/forge view [player]`
+
+Shows the items a player is currently forging.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/harp [player]`
+
+Shows a player's harp statistics, such as what songs they have completed.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
+### `/museum featured [player]`
+
+Shows a player's featured museum items.
+
+```{table}
+:width: 100%
+:widths: auto
+:align: center
+
+| Name   | Description         | Type   |
+| ------ | ------------------- | ------ |
+| player | The player to show. | Player |
+```
+
 ## Verification
 
 ### `/verify link (player)`
@@ -747,6 +806,7 @@ Sends a verification button to the specified channel, or the current one if none
 | ------- | ---------------------------------- | ------- |
 | channel | The channel to send the button to. | Channel |
 ```
+
 
 ## Config
 
@@ -1029,5 +1089,3 @@ Adds a guild to the frag bot. Requires [SkyKings Premium](/premium).
 ### `/help`
 
 Shows a list of commands.
-
-
