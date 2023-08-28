@@ -1,4 +1,4 @@
-Sphinx~=7.2.3
+Sphinx~=7.2.4
 furo~=2023.8.19
 #myst-parser~=1.0.0
 git+https://github.com/executablebooks/MyST-Parser@80b892f
