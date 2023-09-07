@@ -1071,21 +1071,6 @@ Shows people who have voted for the bot on top.gg. Currently nonfunctional.
 Generates an API key for use with our [API](/api). Requires [SkyKings Premium](/premium).
 
 
-### `/fragbot add-guild (guild)`
-
-Adds a guild to the frag bot. Requires [SkyKings Premium](/premium).
-
-```{table}
-:width: 100%
-:widths: auto
-:align: center
-
-| Name   | Description         | Type   |
-| ------ | ------------------- | ------ |
-| guild  | The guild to add.   | Text   |
-```
-
-
 ### `/help`
 
 Shows a list of commands.
