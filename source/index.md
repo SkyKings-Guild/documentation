@@ -16,10 +16,8 @@ hidden: true
 
 api
 discordbot/index
-fragbot
 premium
 ```
 - [API](/api)
 - [Discord Bot](/discordbot/index)
-- [Frag Bot](/fragbot)
 - [Premium](/premium)
