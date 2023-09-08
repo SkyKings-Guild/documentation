@@ -436,7 +436,7 @@ Shows information about a Discord user.
 | user | The user to display. | User |
 ```
 
-### `/guildrequirements [player]`
+### `/guild-requirements [player]`
 
 Shows whether or not someone meets the requirements for the Discord server's guilds.
 
@@ -938,14 +938,14 @@ Remove a rank from a guild's settings.
 :widths: auto
 :align: center
 
-| Name           | Description                                                                                    | Type    |
-| -------------- | ---------------------------------------------------------------------------------------------- | ------- |
-| event          | The type of event to start.                                                                    | Text    |
-| duration       | How long the event should last. Should be in a format similar to `1w 1d`.                      | Text    |
+| Name           | Description                                                                                     | Type    |
+| -------------- | ----------------------------------------------------------------------------------------------- | ------- |
+| event          | The type of event to start.                                                                     | Text    |
+| duration       | How long the event should last. Should be in a format similar to `1w 1d`.                       | Text    |
 | gvg            | Whether the event should be a Guilds vs Guilds event. [SkyKings Premium](/premium) is required. | Boolean |
-| channel        | The channel to send the event message to.                                                      | Channel |
-| role           | The role to ping when the event starts.                                                        | Role    |
-| schedule_event | Whether the event should be scheduled using Discord's events feature.                          | Boolean |
+| channel        | The channel to send the event message to.                                                       | Channel |
+| role           | The role to ping when the event starts.                                                         | Role    |
+| schedule_event | Whether the event should be scheduled using Discord's events feature.                           | Boolean |
 ```
 
 ### `/event end`
