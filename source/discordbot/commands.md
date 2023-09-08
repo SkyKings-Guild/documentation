@@ -436,7 +436,7 @@ Shows information about a Discord user.
 | user | The user to display. | User |
 ```
 
-### `/guildrequirements [player]`
+### `/guild-requirements [player]`
 
 Shows whether or not someone meets the requirements for the Discord server's guilds.
 
