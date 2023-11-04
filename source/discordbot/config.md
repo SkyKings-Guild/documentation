@@ -6,7 +6,7 @@ There are various different types of configuration settings.
 
 ## General & Verification Configuration
 
-The general configuration for the bot contains various automatic annoucements and other things, and can be edited using the `/config edit` command.
+The general configuration for the bot contains various automatic announcements and other things, and can be edited using the `/config edit` command.
 
 ```{table}
 :width: 100%
@@ -152,6 +152,7 @@ Below is a table of valid requirements:
 | Fairy Souls              | The user's Fairy Souls.               | Integer | 220       |
 | Senither Weight          | The user's Senither weight.           | Integer |           |
 | Lily Weight              | The user's Lily weight.               | Integer |           |
+| SkyBlock Level           | The user's SkyBlock level.            | Integer |           |
 | All API Settings Enabled | Whether all API settings are enabled. | Boolean |           |
 ```
 
