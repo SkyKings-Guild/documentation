@@ -76,6 +76,14 @@ The nickname can be set using the following placeholders:
 
 For example, if you wanted to set the nickname to be `[ADMIN] hypixel`, you would set the nickname to be `[{rank}] {ign}`.
 
+Extra formatting, such as adding commas on numbers, is also possible:
+
+- Add commas: `{network_level:,}` `1,234`
+- Truncate strings: `{rank:.2}` `AD`
+
+More information on formatting can be found 
+[here](https://docs.python.org/3/library/string.html#format-specification-mini-language), 
+although most of the other features aren't really practical.
 
 ## Guild Linking
 
