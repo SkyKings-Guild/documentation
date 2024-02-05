@@ -11,10 +11,9 @@ As of April 17, 2023, there are 4 tiers:
 
 | Tier    | Price  |
 | ------- | ------ |
-| Bronze  | $1  | 
-| Silver  | $5  | 
+| Bronze  | $3  | 
+| Silver  | $6  | 
 | Gold    | $10 |
-| Diamond | $25 |
 ```
 
 For more information, visit our [Website](https://skykings.net/premium).
