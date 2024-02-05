@@ -2,7 +2,7 @@
 
 SkyKings Premium is a premium membership that gives you access to exclusive features and benefits.
 
-As of April 17, 2023, there are 4 tiers:
+As of February 05, 2024, there are 3 tiers:
 
 ```{table}
 :width: 100%
