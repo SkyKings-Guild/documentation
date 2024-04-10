@@ -26,6 +26,7 @@ jobs:
       run: |
         sphinx-build -W -b html source build
     - name: Deploy to Pages
+      id: deploy
       uses: cloudflare/pages-action@1
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -42,6 +43,8 @@ jobs:
       with:
         body: |
           ## :rocket: Deployed to Cloudflare Pages!
+
+          See Deployment: ${{ steps.deploy.outputs.url }}
           
           Commit ${{ github.sha }}
       if: github.event_name == 'push'
