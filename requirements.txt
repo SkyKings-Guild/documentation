@@ -1,5 +1,4 @@
 Sphinx~=7.3.7
 furo~=2024.5.6
-#myst-parser~=1.0.0
-git+https://github.com/executablebooks/MyST-Parser@80b892f
+myst-parser~=3.0.1
 sphinxext-opengraph~=0.9.1
