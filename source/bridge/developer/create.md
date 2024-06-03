@@ -18,7 +18,7 @@ class NewCommand(commands.Cog):
         await ctx.send("Hello, world!")
 
 async def setup(bot):
-    bot.add_cog(NewCommand(bot))
+    await bot.add_cog(NewCommand(bot))
 ```
 
 If you want to send a message to Hypixel, you can use `bot.mineflayer_bot.chat`:

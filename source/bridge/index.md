@@ -11,7 +11,6 @@ messages between your Discord server and your Hypixel guild.
 ```{toctree}
 ---
 maxdepth: 1
-hidden: true
 ---
 
 setup
@@ -19,10 +18,6 @@ redis
 extensions
 developer/index
 ```
-- [Setup](setup)
-- [Redis Setup (Optional)](redis)
-- [Extensions](extensions)
-- [Developer Documentation](developer/index)
 
 
 ## Help/Support

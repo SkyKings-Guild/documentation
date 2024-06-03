@@ -11,7 +11,6 @@ including our public Discord bot, API, and more.
 ```{toctree}
 ---
 maxdepth: 1
-hidden: true
 ---
 
 api
@@ -19,10 +18,6 @@ discordbot/index
 bridge/index
 premium
 ```
-- [API](/api)
-- [Discord Bot](/discordbot/index)
-- [Bridge Bots](/bridge/index)
-- [Premium](/premium)
 
 
 ## Help/Support

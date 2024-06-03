@@ -6,3 +6,15 @@ Our bridge bots have two main ways that developers can extend them without modif
 - Extensions, shortly described [here](/bridge/extensions)
 
 This section goes more in-depth on extensions, and how to make them.
+
+## Pages
+
+```{toctree}
+---
+maxdepth: 1
+---
+
+create
+config
+example
+```

@@ -15,5 +15,5 @@ class MessageCog(commands.Cog):
         await ctx.send(f"Message sent to {player}!")
 
 async def setup(bot):
-    bot.add_cog(MessageCog(bot))
+    await bot.add_cog(MessageCog(bot))
 ```
