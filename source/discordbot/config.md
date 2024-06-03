@@ -4,6 +4,8 @@ SkyKings' configuration allows you to customize the bot's behavior in your own s
 
 There are various different types of configuration settings.
 
+All of these settings can be edited on our website: <https://skykings.net/account>
+
 ## General & Verification Configuration
 
 The general configuration for the bot contains various automatic announcements and other things, and can be edited using the `/config edit` command.

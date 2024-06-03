@@ -4,6 +4,8 @@ on:
     branches:
     - main
   pull_request:
+    branches:
+    - main
   workflow_dispatch:
 
 permissions: write-all
@@ -14,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.11
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: 3.11
     - name: Install dependencies
@@ -23,7 +25,9 @@ jobs:
     - name: Compile documentation to HTML
       run: |
         sphinx-build -W -b html source build
+        mv source/robots.txt build/robots.txt
     - name: Deploy to Pages
+      id: deploy
       uses: cloudflare/pages-action@1
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -40,6 +44,8 @@ jobs:
       with:
         body: |
           ## :rocket: Deployed to Cloudflare Pages!
+
+          See Deployment: ${{ steps.deploy.outputs.url }}
           
           Commit ${{ github.sha }}
       if: github.event_name == 'push'
