@@ -16,10 +16,12 @@ hidden: true
 
 api
 discordbot/index
+bridge/index
 premium
 ```
 - [API](/api)
 - [Discord Bot](/discordbot/index)
+- [Bridge Bots](/bridge/index)
 - [Premium](/premium)
 
 
