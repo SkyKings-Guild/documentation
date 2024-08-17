@@ -1,4 +1,4 @@
 Sphinx~=7.3.7
 furo~=2024.8.6
-myst-parser~=3.0.1
+myst-parser~=4.0.0
 sphinxext-opengraph~=0.9.1
