@@ -75,7 +75,7 @@ Run the `!update` command in Discord, or, use the following commands in your bri
 
 ```shell
 # Update files
-git pull
+./venv/bin/python main.py update
 
 # Restart the bot
 # If you do not know what the process name is, you can get it with `pm2 ls`
