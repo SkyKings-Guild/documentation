@@ -40,7 +40,7 @@ jobs:
         PAGES_BRANCH: ${{ github.event_name == 'push' && github.ref_name ||  format('pr-{0}', github.event.number) }}
       if: github.event_name == 'push'
     - name: Comment on Commit
-      uses: peter-evans/commit-comment@v3
+      uses: peter-evans/commit-comment@v4
       with:
         body: |
           ## :rocket: Deployed to Cloudflare Pages!
